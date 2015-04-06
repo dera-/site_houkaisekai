@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>シミュレーションRPG「崩壊世界」</title>
+		<meta charset="UTF-8">
+		<script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/main.css" type="text/css">
+		<link rel="stylesheet" href="css/download.css" type="text/css">
+		<script src="js/select_contents.js" type="text/javascript"></script>
+	</head>
+	<body background="img/background.jpg">
+		<div id="title">
+			<img src="img/genre_simple.png" alt="genre_simple">
+			<a href="http://houkaisekai.com"><img src="img/title.png" alt="崩壊世界"></a>
+			<div id="menu">
+				<a href="story.html"><img src="img/story.png" alt="story" id="img-item"></a>
+				<a href="system.html"><img src="img/system.png" alt="system" id="img-item"></a>
+				<a href="download.html"><img src="img/download_selected.png" alt="download" id="img-item"></a>
+			</div>
+		</div>
+		<div id="content">
+			<div id="contents-tabs">
+				<ul class="nav nav-tabs">
+		  			<li class="active" id="tab"><a onClick="selectContent(0)">Game</a></li>
+		  			<li id="tab"><a onClick="selectContent(1)">Patch</a></li>
+				</ul>
+			</div>
+			<div id="contents">
+				<div class="panel panel-default" id="game">
+					<div class="panel-heading">本編ダウンロード</div>
+	  				<div class="panel-body">
+	  				<p>
+	  					<span id="product-name">崩壊世界(windows版)<span>
+						<button class="btn btn-inverse btn-large" id="product-btn" type="button" onClick="location.href = './houkaisekai_windows.zip'">ダウンロード</button>
+	  				</p>
+	  				<p>
+	  					<span id="product-name">崩壊世界(mac版)<span>
+						<button class="btn btn-inverse btn-large" id="product-btn" type="button" onClick="location.href = './houkaisekai_mac.zip'">ダウンロード</button>
+	  				</p>
+	  				<p>※windows版とmac版でのセーブデータの使い回しはできません。ごめんなさいm(__)m</p>
+	  				</div>
+				</div>
+				<div class="panel panel-default" id="patch" style="display:none">
+					<div class="panel-heading">新マップ追加パッチ</div>
+	  				<div class="panel-body">
+	  				<p>シナリオ第4章とバグ修正の追加</p>
+	  				<p>
+	  					<span id="product-name">追加パッチ(windows版)<span>
+						<button class="btn btn-inverse btn-large" id="product-btn" type="button" onClick="location.href = './追加パッチ_windows.zip'">ダウンロード</button>
+	  				</p>
+	  				<p>
+	  					<span id="product-name">追加パッチ(mac版)<span>
+						<button class="btn btn-inverse btn-large" id="product-btn" type="button" onClick="location.href = './追加パッチ_mac.zip'">ダウンロード</button>
+	  				</p>
+	  				</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

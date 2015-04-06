@@ -1,6 +1,3 @@
 ﻿function download(){
-  ret = confirm("ゲームをダウンロードします。よろしいですか？");
-  if (ret == true){
-    location.href = "./崩壊世界.zip";
-  }
+    location.href = "./崩壊世界ver1.0.zip";
 }
