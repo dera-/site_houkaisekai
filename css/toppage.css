@@ -1,0 +1,21 @@
+﻿#title { 	
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+}
+#item-list {
+    font-size: 150%;
+    font-weight: bold;
+    margin-left:40px;
+}
+#item {
+    margin-top:20px;
+}
+#p-normal {
+    margin-top:20px;
+}
+#normal-sentence {
+    font-size: 130%;
+    font-weight: bold;
+    margin-left:60px;
+}
