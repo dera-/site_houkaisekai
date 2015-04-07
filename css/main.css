@@ -1,72 +1,47 @@
-#title { 	
-    text-align:center;
-    margin:2% 3% 0;
-}
-table.menu{
-	text-align:center;
-	margin:2% auto 0;
-}
-#content{
-    width: 80%;
-    margin: 5% auto;
-}
-#contents-tabs{
-    text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-}
-.nav-tabs{
-	border-width: 5px;
-}
-#contents{
-	 border:inset 3px rgba(100, 30, 30, 0.8);
-	 margin-top: -10px;
-}
-.panel-heading{
-	padding:1% 2%;
-    font-size: 150%;
-    font-weight: bold;
-    background-color:rgba(45, 45, 50, 0.5);
-    color:rgba(120, 30, 30, 1);
-    height:30px;
-}
-.panel-body {
-	padding:1% 3%;
-	font-size: 120%;
-	background-color:#eee;
-}
-#tab{
-	background-color: rgba(45, 45, 50, 0.7);
-	font-size: 200%;
-	cursor: pointer;
+/* UTF-8 */
+body {
+  font-family: 'Noto Sans Japanese', sans-serif;
+  background: url("../img/background.png");
+  text-align: center;
 }
 
-#boxContainer {
-	text-align:center;
-    margin-left:auto;
-    margin-right:auto;
-	display: flex;
-	display: -moz-flex;
-	display: -o-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	flex-direction: row;
-	-moz-flex-direction: row;
-	-o-flex-direction: row;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
+a:link { color: #236B65; }
+a:visited { color: #236B65; }
+a:hover { color: #236B65; }
+a:active { color: #236B65; }
+
+ul {  list-style:none; }
+
+.title .title-caption {
+  font-size: 20pt;
+  font-family: "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝", serif;
+  padding-bottom: 100px;
 }
 
-#menu {
-	margin:2% auto 0;
-	flex-direction: row;
-	-moz-flex-direction: row;
-	-o-flex-direction: row;
-	-webkit-flex-direction: row;
-	-ms-flex-direction: row;
+.title .title-box {
+  width: 80px;
+  margin: auto;
+  padding: 120px;
 }
 
-#img-item {
-    max-width: 30%;
-    height: auto;
+.content-title {
+  font-size: 20pt;
 }
+
+.content-box {
+  height: 600px;
+}
+
+.footer {
+  color: #999;
+  background-color: #050505;
+  width:100%;
+  padding: 5px 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.footer a:link { color: #A0A59D; }
+.footer a:visited { color: #A0A59D; }
+.footer a:hover { color: #A0A59D; }
+.footer a:active { color: #A0A59D; }
